@@ -10,6 +10,15 @@
 <body>
   <?php
   echo " hello world im here";
+  $name = "kamla";
+  $kamla = "kamala mahaara";
+  echo "$name <br>";
+  echo $$name;
+  print_r($GLOBALS);
+  echo "<br>";
+  var_dump($GLOBALS);
+
+
   ?>
 </body>
 
