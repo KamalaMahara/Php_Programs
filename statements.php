@@ -9,15 +9,16 @@
 
 <body>
   <form action="statements.php" method="post">
-    <label for="n">Number: </label>
-    <input type="text" name="n" id="n">
+    <label for="n1">Number 1 : </label>
+    <input type="text" name="n1" id="n1">
+
     <input type="submit" value="check">
   </form>
 </body>
 
 </html>
 <?php
-$num = $_POST["n"];
+$num = $_POST["n1"];
 if ($num > 0) {
   echo "the number is positive";
 } else {
