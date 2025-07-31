@@ -21,7 +21,7 @@
 <?php
 // associative array is an arrat made of "key" => "value" pairs.
 $capital = array(
-  'nepal' => 'ktm',
+  "nepal" => "kathmandu",
   "japan" => "tokyo",
   "south korea" => "seoul",
   "USA" => "washington dc"
