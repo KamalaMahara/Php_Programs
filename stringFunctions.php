@@ -9,3 +9,4 @@ echo strrev($username) . "<br>";
 echo str_shuffle($username) . "<br>"; //randomly shuffles the characters in the string
 echo strcmp($username, "prativa regmi") . "<br>"; //
 echo strlen($username) . "<br>";
+echo strpos($username, "k") . "<br>";
