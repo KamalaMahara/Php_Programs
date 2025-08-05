@@ -31,6 +31,7 @@ if (isset($_POST["login"])) {
   );
   $age = filter_input(INPUT_POST, "age", FILTER_SANITIZE_NUMBER_INT); // this will remove all the characters except numbers)
   $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL); // this will remove all the characters except email format
+  // if we want to validate the inputs we can use the  validation filters
   echo $age . "<br>";
   echo $email . "<br>";
   echo $name . "<br>";
