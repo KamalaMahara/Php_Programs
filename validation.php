@@ -26,13 +26,14 @@
 // validation in php
 if (isset($_POST["login"])) {
   $age = filter_input(INPUT_POST, 'age', FILTER_VALIDATE_INT);
+
   $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
   if (empty($age)) {
     echo "please enter a valid age";
   } else {
     echo "your age is: {$age} <br>";
   }
-  echo "<BR>";
+  echo "<br>";
   if (empty($email)) {
     echo "please enter a valid email";
   } else {
