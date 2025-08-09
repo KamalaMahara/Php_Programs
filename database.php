@@ -14,7 +14,7 @@ try {
   if ($conn->connect_errno) {
     throw new Exception("Connection failed: " . $conn->connect_error);
   }
-  echo "Connection successful";
+  echo "Connection successful <br>";
 } catch (Exception $e) {
   echo $e->getMessage();
 }
