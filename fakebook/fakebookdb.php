@@ -24,7 +24,7 @@ try {
     echo "Error creating database: " . $conn->error;
   }
 
-  // Select the database
+  // Selecting the database
   $conn->select_db($dbname);
 
   // Create table
