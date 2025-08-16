@@ -1,0 +1,94 @@
+.navbar.bg-body-tertiary {
+  background-color: #B4846C!important;
+}
+.navbar-brand img {
+    max-height: 100%;  /* Example height for a desktop navbar */
+    width: 10PX;
+    
+      
+}
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 100%; /* Make the logo smaller on screens 768px wide or less */
+    }
+}
+.navbar-brand #notes {
+    color: rgb(20, 20, 81);
+    font-size: 30px;
+    font-weight: bold;
+    
+   
+    
+}
+.navbar-brand #lekh{
+    color:#5eedf4;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar-brand {
+    margin-right: 250px; 
+    display: flex;
+    align-items: center;
+   
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem; 
+    font-weight: 600;  
+    color: #151212;       
+}
+.navbar-nav .nav-item {
+    margin: 0 30px; 
+}
+
+.first {
+    background-color: #FBF3D5;
+    margin-top: -3rem; /* Adjust this value as needed */
+    display: flex;
+  
+}
+ #id0{
+    color:#B9375D;
+    font-size: 60px;
+     font-weight: bold;
+     margin-right: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ #lekh{
+    color:#5eedf4;
+    font-weight: bold;
+    font-size: 60px;
+  
+}
+ #notes {
+    color: rgb(20, 20, 81);
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+ p{
+    margin-top: 20px;
+}
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(0, 128, 102);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
